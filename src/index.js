@@ -13,17 +13,17 @@ renderer = new THREE.WebGLRenderer({
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 
-img0 = new THREE.TextureLoader().load('media/img_000.jpg');
-img1 = new THREE.TextureLoader().load('media/img_001.jpg');
-img2 = new THREE.TextureLoader().load('media/img_002.jpg');
-img3 = new THREE.TextureLoader().load('media/img_003.jpg');
-img4 = new THREE.TextureLoader().load('media/img_004.jpg');
-img5 = new THREE.TextureLoader().load('media/img_005.jpg');
-img6 = new THREE.TextureLoader().load('media/img_006.jpg');
-img7 = new THREE.TextureLoader().load('media/img_007.jpg');
-img8 = new THREE.TextureLoader().load('media/img_008.jpg');
-img9 = new THREE.TextureLoader().load('media/img_009.jpg');
-img10 = new THREE.TextureLoader().load('media/img_010.jpg');
+img0 = new THREE.TextureLoader().load('/img_000.jpg');
+img1 = new THREE.TextureLoader().load('/img_001.jpg');
+img2 = new THREE.TextureLoader().load('/img_002.jpg');
+img3 = new THREE.TextureLoader().load('/img_003.jpg');
+img4 = new THREE.TextureLoader().load('/img_004.jpg');
+img5 = new THREE.TextureLoader().load('/img_005.jpg');
+img6 = new THREE.TextureLoader().load('/img_006.jpg');
+img7 = new THREE.TextureLoader().load('/img_007.jpg');
+img8 = new THREE.TextureLoader().load('/img_008.jpg');
+img9 = new THREE.TextureLoader().load('/img_009.jpg');
+img10 = new THREE.TextureLoader().load('/img_010.jpg');
 
 const circlePlateGeo = new THREE.CircleGeometry(200, 32);;
 const circleTexture = new THREE.MeshBasicMaterial({ map: img8 });
